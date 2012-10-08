@@ -1,0 +1,6 @@
+<apex:page >
+  
+  
+    Parameter One   {!$CurrentPage.parameters.paramOne}
+
+</apex:page>

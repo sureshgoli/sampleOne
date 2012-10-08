@@ -1,0 +1,17 @@
+<apex:page controller="TestSOQL">
+<apex:pageBlock >
+      <apex:PageBlockTable var="addr" value="{!address}">
+          <apex:column value="{!addr.City__c}"/>
+          
+          <apex:column value="{!addr.StreetOne__c}"/>
+          
+          <apex:column value="{!addr.Continent__c}"/>
+      </apex:PageBlockTable>  
+</apex:pageBlock>
+<apex:form >
+<apex:commandLink />
+ <apex:inputText value="{!inValue}" />
+ <apex:outputtext value="{!inValue}" />
+</apex:form>
+
+</apex:page>

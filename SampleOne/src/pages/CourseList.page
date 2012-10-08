@@ -1,0 +1,7 @@
+<apex:page standardcontroller="Course__c" >
+<apex:form >
+<apex:inputField value="{!Course__c.ListOne__c}"/>
+</apex:form>
+
+
+</apex:page>

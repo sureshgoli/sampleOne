@@ -1,0 +1,16 @@
+<apex:page controller="SearchController">
+    <apex:form >
+            <apex:inputText label="Product_Id"  />
+            <apex:inputText label="Product_Name"/>
+        <apex:commandButton action="{!executeOne}"/>  
+        
+        
+
+<apex:pageblocksection >
+    <apex:pageblocktable value="{!results}"  var="result">
+    </apex:pageblocktable>
+
+</apex:pageblocksection>
+    </apex:form>
+  <apex:actionSupport />
+</apex:page>

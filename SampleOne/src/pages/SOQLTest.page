@@ -1,0 +1,13 @@
+<apex:page controller="SOQLTest" >
+               <apex:pageBlock >
+      <apex:PageBlockTable var="list" value="{!accouts }">
+          <!--<apex:column value="{!account.id}"/>-->
+      </apex:PageBlockTable>  
+      </apex:pageBlock>      
+      
+      <apex:form >
+          <apex:inputText value="{!strOne}"/>
+          <apex:outputText id="txtOne" >
+          </apex:outputText>
+      </apex:form>
+</apex:page>

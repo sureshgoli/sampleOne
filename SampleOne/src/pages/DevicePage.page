@@ -1,0 +1,19 @@
+<apex:page >
+    
+     
+<apex:includeScript value="{!URLFOR($Resource.JQuery, 'js/jquery-1.7.2.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.JQuery, 'js/jquery-ui-1.8.21.custom.min.js')}"/>
+ 
+     <script type="text/javascript">
+         var j$ = jQuery.noConflict();
+ 
+        j$(document).onload(function(){
+            j$("#ninjaLink").click(function() {
+                alert("NINJA STAR TO FACE!!!!!");
+            });
+        });
+     </script>        
+ 
+    <a id="ninjaLink" href="">NINJA ATTACK!</a>
+
+</apex:page>

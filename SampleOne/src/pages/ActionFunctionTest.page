@@ -1,0 +1,27 @@
+<apex:page controller="sampleController" >
+
+<script>
+
+  function printalert()
+
+  {
+
+  alert('hello');
+
+  window.open('/apex/searchcontact');
+
+  }
+
+  </script>
+
+  <apex:form >
+  <apex:commandButton value="click me" onclick="printalert()"/>
+  
+<apex:actionpoller action="{!ChangeValue}" interval="10"/> 
+<apex:actionFunction action="{!ChangeValue}" name="printalert">
+<apex:param name="strOne" value="welcome"/></apex:actionFunction>
+     <apex:outputtext value="{!valueOne}"></apex:outputtext>
+
+  </apex:form>
+
+</apex:page>

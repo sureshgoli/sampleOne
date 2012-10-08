@@ -1,0 +1,7 @@
+<apex:page >
+ <html>
+     <form>
+         <input type="button"/>
+     </form>
+ </html>
+</apex:page>

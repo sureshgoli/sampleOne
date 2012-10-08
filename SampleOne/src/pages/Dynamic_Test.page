@@ -1,0 +1,5 @@
+<apex:page controller="TopOpportunityController">
+<apex:sectionHeader title="Top 10 Open Opprtunities"/>
+<h1>Total Expected Revenue from Top 10 Opportunities:</h1>
+<apex:dynamicComponent componentValue="{!OppTotal}"/>
+</apex:page>

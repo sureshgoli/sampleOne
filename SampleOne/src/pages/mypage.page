@@ -1,0 +1,17 @@
+<apex:page standardController="Account">
+    <apex:form >
+    <apex:pageBlock title="Hello  {!$User.FirstName}">
+        <apex:pageblockSection >
+                <apex:inputField value="{!account.name}"/>
+                <apex:outputField label="User Name" value="{!account.name}"/>
+                <apex:inputcheckbox label="User Name" />
+                        </apex:pageblockSection>
+            <apex:pageblockButtons >
+        <apex:commandButton action="{!save}"  value="Save New Account Name"/>
+    </apex:pageblockButtons>
+
+            </apex:pageBlock>
+    
+    </apex:form>
+    
+</apex:page>

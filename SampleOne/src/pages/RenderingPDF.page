@@ -1,0 +1,5 @@
+<apex:page renderAs="pdf">
+     <html>
+         <body>This is the world of competition.Competer for survival.As long as you are, you would be live, otherwise,......</body>
+      </html>
+ </apex:page>

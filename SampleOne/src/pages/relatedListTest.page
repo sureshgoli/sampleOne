@@ -1,0 +1,4 @@
+<apex:page standardController="Account" >
+      <apex:detail subject="{!account.Id}" inlineEdit="true"/>
+          
+</apex:page>

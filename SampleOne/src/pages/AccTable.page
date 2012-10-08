@@ -1,0 +1,19 @@
+<apex:page standardController="Account" recordSetVar="accounts">
+
+  <apex:pageblock >
+  <apex:pageblocksection >
+       
+</apex:pageblocksection>
+      <apex:form >
+      <apex:pageblocktable value="{!accounts}" var="acc">
+      <apex:column value="{!acc.name}"/>
+      
+      <apex:column >
+          <apex:inputfield value="{!acc.industry}"/>
+      </apex:column>
+      
+  </apex:pageblocktable> 
+   <apex:commandButton action="{!save}"/>
+  </apex:form> 
+  </apex:pageblock>  
+</apex:page>

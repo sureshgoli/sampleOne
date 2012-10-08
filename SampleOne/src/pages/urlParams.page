@@ -1,0 +1,9 @@
+<apex:page standardController="Account">
+        <apex:pageblock title="{!$User.FirstName}">
+            
+        </apex:pageblock>
+  
+  
+  
+  
+</apex:page>

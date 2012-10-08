@@ -1,0 +1,10 @@
+<apex:page standardController="Address__c">
+<apex:pageblocksection >
+    <apex:form >
+         <apex:inputfield />
+         <apex:inputfield />      
+        <apex:commandButton action="{!save}"/>    
+    </apex:form>
+</apex:pageblocksection>
+
+</apex:page>
